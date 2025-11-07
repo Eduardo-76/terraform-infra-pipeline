@@ -1,4 +1,4 @@
 resource "aws_s3_bucket" "aws_s3_bucket" {
-    bucket = var.bucket_name
+    bucket = "eduardo-76-dev-us-east-1-0711"
   
 }
