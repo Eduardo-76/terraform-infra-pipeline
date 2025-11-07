@@ -12,11 +12,11 @@ permissions:
 
 jobs:
   terraform:
-  uses: ./.github/workflows/terraform.yml
-  with:
-    environment: "dev"
-    aws-assume-role: "arn:aws:iam::110948415211:role/github-actions-Eduardo-76-pipeline"
-    aws-region: "us-east-1"
-    aws-statefile-s3-bucket: "eduardo-76-us-east-1-terraform-statefile"
-    aws-lock-dynamodb-table: "eduardo-76-us-east-1-terraform-lock"
+    uses: ./.github/workflows/terraform.yml
+    with:
+      environment: "dev"
+      aws-assume-role: "arn:aws:iam::110948415211:role/github-actions-Eduardo-76-pipeline"
+      aws-region: "us-east-1"
+      aws-statefile-s3-bucket: "eduardo-76-us-east-1-terraform-statefile"
+      aws-lock-dynamodb-table: "eduardo-76-us-east-1-terraform-lock"
   
