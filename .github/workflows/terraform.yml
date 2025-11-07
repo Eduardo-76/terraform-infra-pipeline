@@ -6,7 +6,7 @@ on:
       environment:
         type: string
         required: true
-      aws-assume-role-arn:
+      aws-assume-role:
         type: string
         required: true
       aws-region:
